@@ -103,7 +103,7 @@ window.BOOK.content.uz['10'] = {
   ],
   quiz: [
     { q: `TTFT nimani o‘lchaydi?`, options: [`Javobning umumiy uzunligini`, `Birinchi token kelguncha ketgan vaqtni`, `Sekundiga tokenlarni`], answer: 1, explain: `Time to first token — foydalanuvchi javob boshlanganini qachon ko‘rishi.` },
-    { q: `Xarajat limiti tugagani uchun 429 kelsa, nima qilish kerak?`, options: [`Exponential backoff bilan qayta urinish`, `Limitni oshirish yoki so‘rovlarni to‘xtatish`, `Boshqa API kalit bilan cheksiz urinish`], answer: 1, explain: `Bunday 429 da retry-after yo‘q va qayta urinish limit tiklanguncha yordam bermaydi.` },
+    { q: `Oylik xarajat chegarasi (spend cap) tugagani uchun 429 kelsa, nima qilish kerak?`, options: [`Exponential backoff bilan qayta urinish`, `Limitni oshirish yoki limit tiklanishini kutish`, `Boshqa API kalit bilan cheksiz urinish`], answer: 1, explain: `Bunday 429 da retry-after yo‘q va qayta urinish limit tiklanguncha yordam bermaydi.` },
     { q: `Anthropic modelni o‘chirishdan oldin kamida qancha vaqt ogohlantiradi?`, options: [`7 kun`, `60 kun`, `1 yil`], answer: 1, explain: `Anthropic kamida 60 kun; OpenAI GA modellar uchun kamida 6 oy.` },
     { q: `Trace va span farqi nima?`, options: [`Trace — butun so‘rov, span — undagi bitta qadam`, `Ular bir xil narsa`, `Span — butun so‘rov, trace — bitta qadam`], answer: 0, explain: `Trace butun yo‘lni, span esa har bir model chaqiruvi yoki vosita kabi qismlarni yozadi.` },
     { q: `“Sovuq start” nima?`, options: [`Model xotiraga hali yuklanmagan holatdagi birinchi so‘rov`, `Serverning sovib qolishi`, `Keshning tozalanishi`], answer: 0, explain: `Model yuklanguncha TTFT keskin oshadi; shuning uchun p95 va birinchi so‘rovlarni alohida kuzating.` }

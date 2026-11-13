@@ -246,7 +246,7 @@ window.BOOK.content.uz['02'] = {
     { q: `Maxfiy tibbiy ma’lumot bilan ishlash uchun eng xavfsiz variant qaysi?`, options: [`Bepul Gemini API`, `Router orqali eng arzon model`, `Lokal model`], answer: 2, explain: `Lokal modelda ma’lumot kompyuterdan chiqmaydi. Bepul Gemini tarifida ma’lumot o‘qitishda ishlatiladi va odamlar ko‘rishi mumkin.` },
     { q: `8B model Q4_K_M formatida taxminan qancha xotira oladi (KV cache’siz)?`, options: [`≈ 5 GB`, `≈ 16 GB`, `≈ 1 GB`], answer: 0, explain: `Q4_K_M ≈ 4.9 bit ≈ 0.61 bayt × 8 mlrd ≈ 4.9 GB. 16 GB — F16 formati.` },
     { q: `Ollama’ning OpenAI-compatible manzili qaysi?`, options: [`http://localhost:11434/v1`, `https://api.openai.com/v1`, `http://localhost:1234/v1`], answer: 0, explain: `localhost:1234 — LM Studio serverining standart manzili.` },
-    { q: `Kuniga 10M kirish va 3M javob tokeni Claude Sonnet 5.5’da ($2 / $10) qancha turadi?`, options: [`$12`, `$50`, `$500`], answer: 1, explain: `10 × $2 + 3 × $10 = $20 + $30 = $50.` }
+    { q: `Kuniga 10M kirish va 3M javob tokeni Claude Sonnet 5.5’da (1M token uchun $2 / $10) qancha turadi?`, options: [`$12`, `$50`, `$500`], answer: 1, explain: `10 × $2 + 3 × $10 = $20 + $30 = $50.` }
   ],
   summary: [
     `Model tanlash — sifat, narx, tezlik va maxfiylik o‘rtasidagi kelishuv. Bir provayderning o‘zida narx 80× farq qiladi.`,
